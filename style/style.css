@@ -4,14 +4,22 @@
     box-sizing: border-box;
 }
 
+.active{
+    background-color: aqua;
+}
+
 .light{
     background-color: white;
     color: black;
 }
 
 .dark{
-    background-color: darkslategrey;
+    background-color: rgb(3, 7, 7);
     color: white;
+}
+
+.dar{
+    background-color: black;
 }
 
 html{
@@ -65,9 +73,31 @@ header, footer{
     color: rgb(0, 0, 0);
 }
 
-rticle{
-    width: 60vw;
+h1{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+article{
+    width: 80vw;
     margin: 0 auto; 
     padding: 40px;
-    background: rgb(255, 36, 36);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.2 transform;
+}
+
+.logo{
+    width: 50%;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+button{
+    position: fixed;
 }
