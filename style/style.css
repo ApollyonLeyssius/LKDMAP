@@ -79,9 +79,11 @@ h1{
 }
 
 article{
-    width: 80vw;
+    width: 60vw;
     margin: 0 auto; 
     padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 img{
@@ -92,10 +94,18 @@ img{
 
 .logo{
     width: 50%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 img:hover{
     transform: scale(1.05);
+}
+
+video{
+    width: 100%;
 }
 
 button{
