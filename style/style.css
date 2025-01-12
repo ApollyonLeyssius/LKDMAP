@@ -26,6 +26,19 @@ html{
     scroll-behavior: smooth;
 }
 
+.mode{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    color: white;
+    border:none;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 100%;
+}
+
 header{
     align-items: center;
     color: wheat;
@@ -109,5 +122,5 @@ video{
 }
 
 button{
-    position: fixed;
+    /*position: fixed;*/
 }
